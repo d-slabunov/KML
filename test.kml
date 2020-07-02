@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tiago la pizza</name>
+    <description>Area de reparto</description>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-4301-54-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>4.301</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3600eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-4301-54-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>6.4515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3600eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-4301-54">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-4301-54-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-4301-54-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Pizzería</name>
+        <description>av sarria 15</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            2.151931,41.383589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tiago La Pizza</name>
+        <description><![CDATA[<img src="https://doc-04-6g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/s89bil8jh19vhqvqi3aqnkvj8c/1593689400000/vTXNGz7t4k6kzH7j9K2RqG1S-Qk5IBjD/*/6AF2TALpqfCqT83kSJRu1EXbDX3xQ_fv3RA-t66sdoY4rXry9Z1M5GTBdIHrgBHc3f8jo_t8-FkPqFCyE3g_zFY7md7vPHyShslxF-vllULLAB4UzdXK-BXjiBVjjGPmXOZE7-Rj-9QGg9HJuxveRSawFJWmSOlsluQBmlU_xr0j4T6C_ToSiUHKPrf4HOFIDBab_0pkhFO55nQganwdFh2JEdPbfHBE_pJCcteKs92S5z_xBKTH8O7X26CSSW0C6g8EGNxvNxbALPU7DrD-f0Fsq8IaNmX99YQ?session=0&fife" height="200" width="auto" /><br><br>Area de reparto]]></description>
+        <styleUrl>#poly-FFEA00-4301-54</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-6g-mymaps.googleusercontent.com/untrusted/hostedimage/67ht0gn364521qiheeia79564g/s89bil8jh19vhqvqi3aqnkvj8c/1593689400000/vTXNGz7t4k6kzH7j9K2RqG1S-Qk5IBjD/*/6AF2TALpqfCqT83kSJRu1EXbDX3xQ_fv3RA-t66sdoY4rXry9Z1M5GTBdIHrgBHc3f8jo_t8-FkPqFCyE3g_zFY7md7vPHyShslxF-vllULLAB4UzdXK-BXjiBVjjGPmXOZE7-Rj-9QGg9HJuxveRSawFJWmSOlsluQBmlU_xr0j4T6C_ToSiUHKPrf4HOFIDBab_0pkhFO55nQganwdFh2JEdPbfHBE_pJCcteKs92S5z_xBKTH8O7X26CSSW0C6g8EGNxvNxbALPU7DrD-f0Fsq8IaNmX99YQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                2.1740521,41.3717605,0
+                2.1751173,41.3748552,0
+                2.1747234,41.374987,0
+                2.1739302,41.3750575,0
+                2.169887,41.3753112,0
+                2.1701861,41.3758264,0
+                2.1664095,41.377984,0
+                2.165755,41.3782898,0
+                2.1630621,41.3802622,0
+                2.165047,41.3818481,0
+                2.1649289,41.3834742,0
+                2.1706653,41.3855231,0
+                2.1767026,41.3890527,0
+                2.179897,41.390747,0
+                2.1818685,41.3924089,0
+                2.1785535,41.3950006,0
+                2.1828247,41.398252,0
+                2.1839726,41.3993826,0
+                2.1848202,41.4007548,0
+                2.1852708,41.4034829,0
+                2.1827388,41.406042,0
+                2.1747243,41.4121898,0
+                2.1620481,41.4044166,0
+                2.1654867,41.4017932,0
+                2.1625471,41.3999904,0
+                2.1603156,41.3992338,0
+                2.1581698,41.39925,0
+                2.1550369,41.400087,0
+                2.1526122,41.4011332,0
+                2.1504665,41.4018414,0
+                2.1484065,41.4017126,0
+                2.1466684,41.4019701,0
+                2.1451879,41.4019379,0
+                2.1411539,41.402453,0
+                2.1366478,41.4028554,0
+                2.1326245,41.3987349,0
+                2.1290089,41.3958858,0
+                2.1251251,41.3931413,0
+                2.124889,41.3906703,0
+                2.1256615,41.3885293,0
+                2.1261443,41.3870804,0
+                2.1265412,41.3857925,0
+                2.1274479,41.3825041,0
+                2.1282685,41.3788131,0
+                2.1298161,41.375451,0
+                2.1306448,41.3742463,0
+                2.1328981,41.3711851,0
+                2.1384072,41.3671692,0
+                2.1481384,41.3689306,0
+                2.1557773,41.3701665,0
+                2.1590282,41.3698203,0
+                2.1650147,41.3698041,0
+                2.1740521,41.3717605,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+          <innerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                2.1746051,41.3765309,0
+                2.1744012,41.3765912,0
+                2.1744401,41.3763358,0
+                2.1746051,41.3765309,0
+              </coordinates>
+            </LinearRing>
+          </innerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
